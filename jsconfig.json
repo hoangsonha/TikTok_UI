@@ -1,8 +1,8 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
+    "compilerOptions": {
+        "baseUrl": ".", // . is file current
+        "paths": {
+            "~/*": ["src/*"] // input ~ will show all file in src, support Command Prompt when input ~/ in src
+        }
     }
-  }
 }

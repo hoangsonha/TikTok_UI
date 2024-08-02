@@ -1,12 +1,12 @@
 {
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "~": "./src"
-        }
-      }
+    "plugins": [
+        [
+            "module-resolver", // xoá root đi vì dễ nhầm tên vs thư viện do root từ ./src
+            {
+                "alias": {
+                    "~": "./src"
+                }
+            }
+        ]
     ]
-  ]
 }
